@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "/run/media/abdul/App/MyProjects/NET/PinterestAutoPost_public/PinterestAutoPostConsole/PinterestAutoPostConsole.csproj": {}
+  },
+  "projects": {
+    "/run/media/abdul/App/MyProjects/NET/PinterestAutoPost_public/PinterestAutoPostConsole/PinterestAutoPostConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/run/media/abdul/App/MyProjects/NET/PinterestAutoPost_public/PinterestAutoPostConsole/PinterestAutoPostConsole.csproj",
+        "projectName": "PinterestAutoPostConsole",
+        "projectPath": "/run/media/abdul/App/MyProjects/NET/PinterestAutoPost_public/PinterestAutoPostConsole/PinterestAutoPostConsole.csproj",
+        "packagesPath": "/home/abdul/.nuget/packages/",
+        "outputPath": "/run/media/abdul/App/MyProjects/NET/PinterestAutoPost_public/PinterestAutoPostConsole/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/abdul/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.101.0, )"
+            },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1001, )"
+            },
+            "Selenium.Firefox.WebDriver": {
+              "target": "Package",
+              "version": "[0.27.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[112.0.5615.4900, )"
+            },
+            "Selenium.WebDriver.GeckoDriver": {
+              "target": "Package",
+              "version": "[0.33.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/var/lib/snapd/snap/dotnet-sdk/212/sdk/7.0.305/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
